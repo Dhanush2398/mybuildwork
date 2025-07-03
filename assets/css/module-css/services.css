@@ -207,7 +207,7 @@
 .service-two {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    padding: 10px 0 10px;
     z-index: 1;
 }
 
