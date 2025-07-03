@@ -2176,6 +2176,69 @@ ul {
 .footer-widget__logo img{
   height: 90px;
 }
+ .plans-section {
+    background-color: #141422;
+    color: #ffffff;
+    padding: 60px 0;
+  }
+
+  
+  .plans-section h5,
+  .plans-section p {
+    color: #ffffff;
+  }
+   .plans-section h2{
+    color: #E63A27;
+   }
+
+  .plans-section .card {
+    background-color: #1e1e2e;
+    border: 1px solid #2e2e3f;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .plans-section .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+
+  .plans-section .badge {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+
+  .badge-premium {
+    background-color: #9c27b0;
+  }
+
+  .badge-classic {
+    background-color: #3f51b5;
+  }
+
+  .badge-silver {
+    background-color: #b0bec5;
+    color: #141422;
+  }
+
+  .badge-gold {
+    background-color: #fbc02d;
+    color: #141422;
+  }
+
+  .badge-diamond {
+    background-color: #00bcd4;
+  }
+
+  .badge-platinum {
+    background-color: #e0e0e0;
+    color: #141422;
+  }
+
+  .section-title {
+    margin-bottom: 40px;
+  }
 /*--------------------------------------------------------------
 # End Header Css
 --------------------------------------------------------------*/
