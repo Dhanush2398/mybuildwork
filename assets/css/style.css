@@ -1041,6 +1041,7 @@ ul {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   visibility: visible;
+  height: 150px;
 }
 
 .mobile-nav__buttons {
