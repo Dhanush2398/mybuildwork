@@ -2456,3 +2456,17 @@ ul {
   background-color: #ffffff !important;
   border-bottom: none;
 }
+
+.feature-list li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #141422;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed #E63A27;
+  padding-bottom: 6px;
+}
+
+
+
+
