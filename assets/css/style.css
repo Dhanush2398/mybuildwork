@@ -2468,5 +2468,19 @@ ul {
 }
 
 
+.people-badge {
+  background: #3A3285;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  margin-right: 12px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
 
