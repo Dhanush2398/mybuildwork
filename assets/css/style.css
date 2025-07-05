@@ -2176,7 +2176,7 @@ ul {
 }
 .footer-widget__logo img{
   height: 90px;
-}/*
+}
  .plans-section {
     background-color: #141422;
     color: #ffffff;
@@ -2239,12 +2239,31 @@ ul {
 
   .section-title {
     margin-bottom: 40px;
-  }*/
+  }
+  .plans-section .btn-buy-now {
+  display: inline-block;
+  background-color: #E63A27;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.plans-section .btn-buy-now:hover {
+  background-color: #c32e1e;
+  transform: scale(1.05);
+}
+
   .banner-one__img img{
     height: 305px;
     width: 350px;
   }
-
+/*
 
 .pricing-section {
   background: #ffffff;
@@ -2481,6 +2500,6 @@ ul {
   margin-right: 12px;
   flex-shrink: 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
+}*/
 
 
