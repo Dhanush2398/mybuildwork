@@ -2582,7 +2582,7 @@ ul {
       }
     }
 
-    
+
 .plan-section-refined {
   background: linear-gradient(to right, #f5f7fa, #e8ecf3);
   padding: 60px 0;
@@ -2681,6 +2681,7 @@ ul {
 
 .btn-buy:hover {
   background-color: #c22d1d;
+  color: #fff;
 }
 
 .premium .plan-title { color: #E040FB; }
