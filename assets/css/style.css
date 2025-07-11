@@ -2177,87 +2177,7 @@ ul {
 .footer-widget__logo img{
   height: 90px;
 }
- .plans-section {
-    background-color: #141422;
-    color: #ffffff;
-    padding: 60px 0;
-  }
-
-  
-  .plans-section h5,
-  .plans-section p {
-    color: #ffffff;
-  }
-   .plans-section h2{
-    color: #E63A27;
-   }
-
-  .plans-section .card {
-    background-color: #1e1e2e;
-    border: 1px solid #2e2e3f;
-    border-radius: 12px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .plans-section .card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-  }
-
-  .plans-section .badge {
-    font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 20px;
-  }
-
-  .badge-premium {
-    background-color: #9c27b0;
-  }
-
-  .badge-classic {
-    background-color: #3f51b5;
-  }
-
-  .badge-silver {
-    background-color: #b0bec5;
-    color: #141422;
-  }
-
-  .badge-gold {
-    background-color: #fbc02d;
-    color: #141422;
-  }
-
-  .badge-diamond {
-    background-color: #00bcd4;
-  }
-
-  .badge-platinum {
-    background-color: #e0e0e0;
-    color: #141422;
-  }
-
-  .section-title {
-    margin-bottom: 40px;
-  }
-  .plans-section .btn-buy-now {
-  display: inline-block;
-  background-color: #E63A27;
-  color: #ffffff;
-  font-size: 14px;
-  padding: 6px 16px;
-  border: none;
-  border-radius: 50px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.plans-section .btn-buy-now:hover {
-  background-color: #c32e1e;
-  transform: scale(1.05);
-}
+ 
 
   .banner-one__img img{
     height: 305px;
@@ -2661,3 +2581,118 @@ ul {
         font-size: 15px;
       }
     }
+
+    
+.plan-section-refined {
+  background: linear-gradient(to right, #f5f7fa, #e8ecf3);
+  padding: 60px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.plan-section-refined .section-title {
+  text-align: center;
+  font-size: 36px;
+  color: #E63A27;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.plan-section-refined .section-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.plan-section-refined .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.plan-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.plan-row > [class*='col-'] {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.plan-card {
+  background: #1e1e2e;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.plan-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: #E63A27;
+}
+
+.plan-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px;
+}
+
+.plan-list li {
+  display: flex;
+  justify-content: space-between;
+  background: #2e2e3f;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-buy {
+  background-color: #E63A27;
+  color: #fff;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+  background-color: #c22d1d;
+}
+
+.premium .plan-title { color: #E040FB; }
+.classic .plan-title { color: #448AFF; }
+.silver .plan-title  { color: #B0BEC5; }
+.gold .plan-title    { color: #FBC02D; }
+.diamond .plan-title { color: #00BCD4; }
+.platinum .plan-title { color: #E0E0E0; }
+
+@media (max-width: 768px) {
+  .plan-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
